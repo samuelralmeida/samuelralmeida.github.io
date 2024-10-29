@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Samuel Almeida
     - name: Date of Birth
-      value: 14th March 1879
+      value: 22/08/1989
     - name: Languages
-      value: English, German
+      value: Portuguese
 
 - title: Education
   type: time_table
