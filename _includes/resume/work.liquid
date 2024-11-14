@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | reverse %}
+  {% assign work = data[1] %}
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">
@@ -42,11 +42,11 @@
             {% for item in content.highlights %}
               {% if item.url %}
                 <li>
-                   <a href="{{ item.url }}">{{ item.description }}</a>
+                  <a href="{{ item.url }}">{{ item.description }}</a>
                 </li>
               {% else %}
                 <li>
-                  <span class="item">{{ item }}</span>
+                  <span class="item">{{ item.description }}</span>
                 </li>
               {% endif %}
             {% endfor %}

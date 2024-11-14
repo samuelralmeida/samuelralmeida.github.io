@@ -18,13 +18,82 @@
   },
   "trabalho": [
     {
+      "name": "Far.me",
+      "position": "Desenvolvedor web full-stack",
+      "url": "https://www.farme.com.br/",
+      "startDate": "06/2021",
+      "endDate": "atual",
+      "summary": "Desenvolvimento e manutenção de sistemas web.",
+      "highlights": [
+        {
+          "description": "Desenvolvimento de área logada para assinantes do serviço."
+        },
+        {
+          "description": "Desenvolvimento de AWS lambdas para geração de pdf, envio de emails e integrações com AWS Cognito "
+        },
+        {
+          "description": "Melhorias de performance em API REST "
+        },
+        {
+          "description": "Criação de API REST para abstrair faturas e cobranças e permitir integração com múltiplos gateways de pagamento."
+        },
+        {
+          "description": "Melhora na escalabilidade e manutenção do banco de dados após unificação de dados, padronização de tabelas e remoção de duplicidades."
+        },
+        {
+          "description": "Desenvolvimento de novo recurso de criação de orçamentos internos mais rápida e automatizada."
+        }
+      ]
+    },
+    {
+      "name": "Letras",
+      "position": "Desenvolvedor web backend",
+      "url": "https://www.letras.mus.br/",
+      "startDate": "11/2018",
+      "endDate": "06/2021",
+      "summary": "Desenvolvimento e manutenção de sistemas web.",
+      "highlights": [
+        {
+          "description": "Automações no sistema de moderação para agilizar analise de conteúdo enviado pela comunidade."
+        },
+        {
+          "description": "Apis REST e gRPC para responder de forma rápida requisições do aplicativo mobile e site."
+        },
+        {
+          "description": "Criação de API GraphQL para plataforma de ensino de idiomas usando letras de música"
+        },
+        {
+          "description": "Criação de sistemas de fila usando RabbitMQ para upload de vídeos e documentos para plataforma de ensino de idiomas."
+        }
+      ]
+    },
+    {
+      "name": "Grupo Diários Associados",
+      "position": "Desenvolvedor web trainee",
+      "url": "https://www.uai.com.br/",
+      "startDate": "01/2018",
+      "endDate": "11/2018",
+      "summary": "Desenvolvimento e manutenção de sistemas web para Jornal Estado de Minas e Portal UAI",
+      "highlights": [
+        {
+          "description": "Desenvolvimento de API RESTful para aplicativo mobile do jornal Estado de Minas"
+        },
+        {
+          "description": "Criação de algorítimo para rankeamento de blogs do Portal UAI"
+        },
+        {
+          "description": "Desenvolvimento de sistema de teste A/B para a seção de notícias do Portal UAI"
+        }
+      ]
+    },
+    {
       "name": "Instituto René Rachou (Fiocruz Minas)",
       "position": "Apoio técnico à pesquisa cientifica",
       "url": "https://www.cpqrr.fiocruz.br/pg/",
       "startDate": "09/2016",
       "endDate": "01/2018",
       "summary": "Apoio técnico a pesquisa sobre perfil do usuário sobre utilização de medicamentos no sistema único de saúde e sua relação com o profissional farmacêutico",
-      "highlights":[
+      "highlights": [
         {
           "description": "Artigo publicado: 'Pharmaceutical Services in Primary Health Care: are pharmacists and users on the same page?'",
           "url": "https://www.scielosp.org/pdf/csc/2017.v22n8/2463-2474/en"
@@ -119,47 +188,25 @@
       "name": "Linguagens de programação",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Golang",
-        "Python (Flask e Fastapi)",
-        "Javascript",
-        "Java (Springboot)"
-      ]
+      "keywords": ["Golang", "Python (Flask e Fastapi)", "Javascript", "Java (Springboot)"]
     },
     {
       "name": "Banco de dados",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "PostgreSQL",
-        "Mysql",
-        "MongoDB",
-        "Redis"
-      ]
+      "keywords": ["PostgreSQL", "Mysql", "MongoDB", "Redis"]
     },
     {
       "name": "Infraestrutura",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "AWS",
-        "Kubernetes",
-        "Docker",
-        "Google Cloud"
-      ]
+      "keywords": ["AWS", "Kubernetes", "Docker", "Google Cloud"]
     },
     {
       "name": "Outras tecnologias",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "RESTful",
-        "SQS",
-        "SNS",
-        "RabbitMQ",
-        "GraphQL"
-      ]
+      "keywords": ["Git", "RESTful", "SQS", "SNS", "RabbitMQ", "GraphQL"]
     }
   ],
   "idiomas": [
@@ -181,14 +228,22 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [
+  "projetos pessoais": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "nim",
+      "summary": "CLI para jogar Nim contra uma inteligência artificial treinada por reforço de aprendizado usando algoritimo Q-learning",
+      "highlights": ["Inteligência artificial", "Golang", "Nim"],
+      "startDate": "08-2024",
+      "endDate": "",
+      "url": "https://github.com/samuelralmeida/nim"
+    },
+    {
+      "name": "logwriter",
+      "summary": "Pacote Golang para escrever logs em arquivos. É seguro para usar com múltiplas 'goroutines'",
+      "highlights": ["log", "Golang"],
+      "startDate": "07-2024",
+      "endDate": "",
+      "url": "https://github.com/samuelralmeida/logwriter"
     }
   ]
 }
